@@ -8,8 +8,21 @@
 import SwiftUI
 
 struct SearchView: View {
+    
+    //MARK: Stored properties
+    //Holds the list of foods returned by our search
+    @State var foundFoods: [Food] = []
+    
+    //MARK: Computed properties
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List(foundFoods, id: \.idMeal) { currentFood in
+            VStack {
+                Image(currentFood.strMealThumb)
+                    
+                Text(currentFood.strMeal)
+                    .bold()
+            }
+        }
     }
 }
 

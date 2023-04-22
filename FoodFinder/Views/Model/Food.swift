@@ -10,6 +10,7 @@ import Foundation
 struct Food: Codable {
     
     let idMeal: Int
+    let strMeal: String
     let strCategory: String
     let strArea: String
     let strInstructions: String
