@@ -17,11 +17,16 @@ struct SearchView: View {
     var body: some View {
         List(foundFoods, id: \.idMeal) { currentFood in
             VStack {
+                
                 Image(currentFood.strMealThumb)
                     
                 Text(currentFood.strMeal)
                     .bold()
             }
+        }
+        .task {
+            //When the view appears, fetch search results for "Arrabiata"
+            foundFoods = await NetworkService.fetch()
         }
     }
 }

@@ -20,7 +20,7 @@ struct NetworkService {
     static func fetch() async -> [Food] {
         
         // 1. Attempt to create a URL from the address provided
-        let endpoint = "www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata"
+        let endpoint = "https://themealdb.com/api/json/v1/1/search.php?s=Arrabiata"
         guard let url = URL(string: endpoint) else {
             print("Invalid address for JSON endpoint.")
             return []
