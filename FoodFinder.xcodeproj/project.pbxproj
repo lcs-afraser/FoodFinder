@@ -11,6 +11,7 @@
 		6EBA376629F42B6E006A7B1F /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBA376529F42B6E006A7B1F /* Food.swift */; };
 		6EBA376829F42C5E006A7B1F /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBA376729F42C5E006A7B1F /* SearchResult.swift */; };
 		6EBA376A29F42CCD006A7B1F /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBA376929F42CCD006A7B1F /* SearchView.swift */; };
+		6EBA376D29F42E09006A7B1F /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBA376C29F42E09006A7B1F /* NetworkService.swift */; };
 		6EE5F2F629F39FF100F2C83F /* FoodFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE5F2F529F39FF100F2C83F /* FoodFinderApp.swift */; };
 		6EE5F2FA29F39FF200F2C83F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EE5F2F929F39FF200F2C83F /* Assets.xcassets */; };
 		6EE5F2FD29F39FF200F2C83F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EE5F2FC29F39FF200F2C83F /* Preview Assets.xcassets */; };
@@ -21,6 +22,7 @@
 		6EBA376529F42B6E006A7B1F /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 		6EBA376729F42C5E006A7B1F /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 		6EBA376929F42CCD006A7B1F /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		6EBA376C29F42E09006A7B1F /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		6EE5F2F229F39FF100F2C83F /* FoodFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EE5F2F529F39FF100F2C83F /* FoodFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodFinderApp.swift; sourceTree = "<group>"; };
 		6EE5F2F929F39FF200F2C83F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,6 +59,15 @@
 			path = Views/Model;
 			sourceTree = "<group>";
 		};
+		6EBA376B29F42DF5006A7B1F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6EBA376C29F42E09006A7B1F /* NetworkService.swift */,
+			);
+			name = Services;
+			path = Views/Services;
+			sourceTree = "<group>";
+		};
 		6EE5F2E929F39FF100F2C83F = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +89,7 @@
 			children = (
 				6EE5F2F529F39FF100F2C83F /* FoodFinderApp.swift */,
 				6EBA376429F42B4F006A7B1F /* Model */,
+				6EBA376B29F42DF5006A7B1F /* Services */,
 				6EBA376129F3A053006A7B1F /* Views */,
 				6EE5F2F929F39FF200F2C83F /* Assets.xcassets */,
 				6EE5F2FB29F39FF200F2C83F /* Preview Content */,
@@ -167,6 +179,7 @@
 				6EE5F2F629F39FF100F2C83F /* FoodFinderApp.swift in Sources */,
 				6EBA376329F3A063006A7B1F /* FoodDetailView.swift in Sources */,
 				6EBA376829F42C5E006A7B1F /* SearchResult.swift in Sources */,
+				6EBA376D29F42E09006A7B1F /* NetworkService.swift in Sources */,
 				6EBA376629F42B6E006A7B1F /* Food.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
