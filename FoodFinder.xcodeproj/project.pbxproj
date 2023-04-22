@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6EBA376329F3A063006A7B1F /* FoodDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBA376229F3A063006A7B1F /* FoodDetailView.swift */; };
 		6EE5F2F629F39FF100F2C83F /* FoodFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE5F2F529F39FF100F2C83F /* FoodFinderApp.swift */; };
-		6EE5F2F829F39FF100F2C83F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE5F2F729F39FF100F2C83F /* ContentView.swift */; };
 		6EE5F2FA29F39FF200F2C83F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EE5F2F929F39FF200F2C83F /* Assets.xcassets */; };
 		6EE5F2FD29F39FF200F2C83F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EE5F2FC29F39FF200F2C83F /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6EBA376229F3A063006A7B1F /* FoodDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailView.swift; sourceTree = "<group>"; };
 		6EE5F2F229F39FF100F2C83F /* FoodFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EE5F2F529F39FF100F2C83F /* FoodFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodFinderApp.swift; sourceTree = "<group>"; };
-		6EE5F2F729F39FF100F2C83F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6EE5F2F929F39FF200F2C83F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6EE5F2FC29F39FF200F2C83F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -32,6 +32,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6EBA376129F3A053006A7B1F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6EBA376229F3A063006A7B1F /* FoodDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		6EE5F2E929F39FF100F2C83F = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				6EE5F2F529F39FF100F2C83F /* FoodFinderApp.swift */,
-				6EE5F2F729F39FF100F2C83F /* ContentView.swift */,
+				6EBA376129F3A053006A7B1F /* Views */,
 				6EE5F2F929F39FF200F2C83F /* Assets.xcassets */,
 				6EE5F2FB29F39FF200F2C83F /* Preview Content */,
 			);
@@ -137,8 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EE5F2F829F39FF100F2C83F /* ContentView.swift in Sources */,
 				6EE5F2F629F39FF100F2C83F /* FoodFinderApp.swift in Sources */,
+				6EBA376329F3A063006A7B1F /* FoodDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
